@@ -1,5 +1,5 @@
 const squaredValue = (value) => {
-  console.log (value * value);
+  return value * value;
 }
 
-squaredValue (10);
+console.log (squaredValue (10));
